@@ -12,7 +12,7 @@ app = {                    # REQUIRED dict, must be named 'app'
         (0x400000, 'Video', [Keycode.LEFT_ALT, 'v']),       # Alt-v - start/stop video camera
         (0x553700, 'Share', [Keycode.LEFT_ALT, 's']),       # Alt-s - start/stop screen sharing
         # 2nd row ----------
-        (0x000000, ' ', ['']),
+        (0x004000, 'FullScreen', [Keycode.LEFT_ALT, 'f']),
         (0x000000, ' ', ['']),
         (0x400000, 'End', [Keycode.LEFT_ALT, 'q']),                     # Alt-q - end meeting
         # 3rd row ----------
